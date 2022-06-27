@@ -94,10 +94,8 @@ img {
 .flex-container-2 {
     display: flex;
     flex-direction: row;
-    flex-basis: auto;
     flex-wrap: nowrap;
     width: 100%;
-    height: 900px;
     background-color: #faeee7;
     padding: 10px;
 }
@@ -114,6 +112,11 @@ img {
 #box-4 {
     width: 80%;
     padding-left: 20px;
+    flex: 4;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .flex-container-3 {
@@ -141,4 +144,39 @@ img {
     width: 80%;
     padding-left: 20px;
     padding-bottom: 20px;
+}
+
+.project-card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 10px;
+    flex: 0 0 400px;
+    margin: 7px;
+    background-color: #594a4e
+}
+
+.project-card header {
+    border-radius: 15px 15px 0px 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #33272a;
+    color: #ff8ba7;
+}
+
+.project-card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 0%;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.project-card:hover {
+    background-color: #c3f0ca;
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
 }
