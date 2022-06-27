@@ -11,29 +11,39 @@
 <body>
   <header>
     <section class="header">
-      <nav class="text-right">
+      <h1 id="name">Kent Shaffer</h1>
+      <nav class="navigation">
         <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact-me">Contact</a></li>
           <li><a href="#">Resume</a></li>
         </ul>
       </nav>
-     <h1 class="text-left">Kent Shaffer</h1>
+      <!-- <h1 class="header-greeting">Good Afternoon</h1> -->
     </section>
   </header>
 
   <main>
-    <section class="flex-container-1">
+    <section id="about-me" class="flex-container-1" style="border: 3px solid cyan">
       <div id="box-1"><h2>About Me</h2></div>
       <div id="box-2"><img src="/Assets/images/FullSizeRender.jpeg" alt=""></div> 
     </section>
 
-
-    <section class="flex-container-2">
+    <section id="work" class="flex-container-2">
       <div id="box-3"><h2>Work</h2></div>
-      <div id="box-4"><a href="link to code refactor project">Code Refactor</a></div> 
+      <div id="box-4">
+        <div id="featured-project"><img src="/Assets/images/module-1-challenge deployed application 1.png" alt=""></div>
+        <div id="project-placeholder-1"><img src="/Assets/images/Project placeholder1.png" alt=""></div>
+        <div id="project-placeholder-2"><img src="/Assets/images/Project placeholder2.png" alt=""></div>
+        <div id="project-placeholder-3"><img src="/Assets/images/Project placeholder3.png" alt=""></div>
+      </div> 
     </section>
+
+    <section id="contact-me" class="flex-container-3">
+        <div id="box-5"><h2>Contact Me</h2></div>
+        <div id="box-6"></div> 
+      </section>
     
   </main>
 
