@@ -4,7 +4,9 @@ body {
     min-height: 100vh;
     justify-content: flex-start;
 }
- 
+
+ /* Nav bar styling */
+
 nav {
     display: flex;
     justify-content: flex-end;
@@ -23,11 +25,14 @@ a:hover {
     background-color: #c3f0ca;
 }
   
+/* Page section headings */
 
 h2 {
     color: #ff8ba7;
     text-align: center;
 }
+
+/* Header styling */
 
 header {
     padding: 1px;
@@ -58,12 +63,16 @@ header {
     font-size: 40px;
 } */
 
+/* Profile Headshot */
+
 #box-2 img {
     height: 220px;
     margin-right: 15px;
     float: left;
     border: #ff8ba7 4px solid;
 }
+
+/* bio text styling */
 
 p {
     font-size: 20px;
@@ -72,25 +81,28 @@ p {
     line-height: 1.5;
 }
 
-.flex-container-1 {
+/* Page section flex container styling */
+
+.flex-container-1, .flex-container-2, .flex-container-3 {
     display: flex;
     flex-direction: row;
-    flex-basis: auto;
     flex-wrap: nowrap;
-    height: 300px;
     background-color: #faeee7;
-    padding: 10px;
+    padding: 40px 10px 40px 10px;
 }
 
-#box-1 {
+/* Heading flexbox styling */
+
+#box-1, #box-3, #box-5 {
     width: 20%;
     border-width: 0px;
     border-right: 5px;
     border-color: #ff8ba7;
     border-style: solid;
     font-size: 40px;
-    text-align: right;
 }
+
+/* headshot and bio flex container */
 
 #box-2 {
     width: 80%;
@@ -98,22 +110,7 @@ p {
     padding-bottom: 20px;
 }
 
-.flex-container-2 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-color: #faeee7;
-    padding: 10px;
-}
-
-#box-3 {
-    width: 20%;
-    border-width: 0px;
-    border-right: 5px;
-    border-color: #ff8ba7;
-    border-style: solid;
-    font-size: 40px;
-}
+/* Project card flex container */
 
 #box-4 {
     width: 80%;
@@ -125,23 +122,7 @@ p {
     justify-content: center;
 }
 
-.flex-container-3 {
-    display: flex;
-    flex-direction: row;
-    flex-basis: auto;
-    flex-wrap: nowrap;
-    background-color: #faeee7;
-    padding: 10px;
-}
-
-#box-5 {
-    width: 20%;
-    border-width: 0px;
-    border-right: 5px;
-    border-color: #ff8ba7;
-    border-style: solid;
-    font-size: 40px;
-}
+/* contact links flex container */
 
 #box-6 {
     display: flex;
@@ -150,12 +131,14 @@ p {
     align-items: center;
 }
 
+/* card styling */
+
 .project-card {
     border-style: solid;
     border-width: 1px;
     border-radius: 20px;
     padding: 10px;
-    flex: 0 0 300px;
+    flex: 0 0 400px;
     margin: 7px;
     background-color: #594a4e
 }
@@ -185,6 +168,8 @@ a {
     text-decoration: none;
 }
 
+/* contact section button links */
+
 #box-6 a {
     font-size: 25px;
     background-color: #594a4e;
@@ -197,6 +182,17 @@ a {
 #box-6 a:hover {
     background-color: #c3f0ca;
 }
+
+/* footer styling */
+
+footer {
+    background-image: linear-gradient(#594a4e, #ff8ba7);
+    color: #ff8ba7;
+    text-align: center;
+    padding: 3px;
+}
+
+/* media queries */ 
 
 @media screen and (max-width:992px) {
     .flex-container-1, .flex-container-2, .flex-container-3 {
@@ -219,6 +215,10 @@ a {
         margin-top: 15px;
     }
 
+    .project-card {
+        flex: 0 0 300px;
+    }
+   
     p {
         font-size: 17px;
     }

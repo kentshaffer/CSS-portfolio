@@ -17,8 +17,14 @@ This assignment was designed to dive deeper into advanced CSS design elements an
 
 ## Deployed application: (https://kentshaffer.github.io/module-2-challenge/)
 
-![image screenshot of navigation bar and header image of deployed application]()
+![image screenshot of navigation bar and biography section of deployed application on desktop size](/Assets/images/module-2-challenge-desktop-1.png)
 
-![image screenshot of image cards with text and side bar icons and descriptions]()
+![image screenshot of project card section of deployed application on desktop size](/Assets/images/module-2-challenge-desktop-2.png)
 
-![image screenshot of footer]() 
+![image screenshot of contact section and footer of deployed application on desktop size](/Assets/images/module-2-challenge-desktop-3.png) 
+
+![image screenshot of header, nav, and bio of deployed application on smartphone size](/Assets/images/module-2-challenge-mobile-1.png) 
+
+![image screenshot of project card section of deployed application on smartphone size](/Assets/images/module-2-challenge-mobile-2.png) 
+
+![image screenshot of header, bio and top of project card section of deployed application on tablet size](/Assets/images/module-2-challenge-tablet-1.png) 
