@@ -32,7 +32,7 @@ h2 {
 header {
     padding: 1px;
     justify-content: flex-start;
-    background-color: #594a4e
+    background-image: linear-gradient(#594a4e, #ff8ba7);
 }
 
 #name {
@@ -61,7 +61,15 @@ header {
 
 img {
     height: 220px;
+    margin-right: 15px;
     float: left;
+}
+
+p {
+    font-size: 20px;
+    color: #ff8ba7;
+    padding: 5px;
+    line-height: 1.5;
 }
 
 .flex-container-1 {
@@ -69,7 +77,6 @@ img {
     flex-direction: row;
     flex-basis: auto;
     flex-wrap: nowrap;
-    width: 100%;
     height: 300px;
     background-color: #faeee7;
     padding: 10px;
@@ -95,7 +102,6 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 100%;
     background-color: #faeee7;
     padding: 10px;
 }
@@ -124,8 +130,6 @@ img {
     flex-direction: row;
     flex-basis: auto;
     flex-wrap: nowrap;
-    width: 100%;
-    height: 200px;
     background-color: #faeee7;
     padding: 10px;
 }
@@ -137,13 +141,13 @@ img {
     border-color: #ff8ba7;
     border-style: solid;
     font-size: 45px;
-    text-align: right;
 }
 
 #box-6 {
+    display: flex;
     width: 80%;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .project-card {
@@ -179,4 +183,17 @@ img {
 
 a {
     text-decoration: none;
+}
+
+#box-6 a {
+    font-size: 25px;
+    background-color: #594a4e;
+    color: #ff8ba7;
+    height: fit-content;
+    margin: 6px;
+    padding: 6px;
+}   
+
+#box-6 a:hover {
+    background-color: #c3f0ca;
 }
