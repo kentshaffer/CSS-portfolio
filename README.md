@@ -5,7 +5,6 @@
 This assignment was designed to dive deeper into advanced CSS design elements and apply new CSS knowledge in the challenge of creating a student portfolio webpage. To acomplish the page layout, multiple methods of manipulating flexbox elements were reaserched and applied. The webpage is designed and layed out to accomodate multiple screen sized without distorting page styling or usability. 
 
 ## Areas Covered:
-
 * Webpage header with heading text.
 * Navigation bar with navigation buttons that shade when hovered and jump to respective sections when pressed.
 * Introductory biography for prospective employers to learn more about myself, as well as my capabilities as a developer.
